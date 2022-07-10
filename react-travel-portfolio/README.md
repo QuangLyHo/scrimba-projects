@@ -8,6 +8,6 @@ Second React solo project based on the Scrimba Frontend Developer Career Path. O
 
 ### Built with 
 
-• Semantic HTML5 markup
-• CSS
-• React
+- Semantic HTML5 markup
+- CSS
+- React
