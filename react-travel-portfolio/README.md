@@ -8,7 +8,7 @@ Second React solo project based on the Scrimba Frontend Developer Career Path. O
 
 ### Screenshot
 
-![travel_journal](https://user-images.githubusercontent.com/76503650/178315192-194b7038-a8ad-4941-810e-bfb327378bbb.gif)
+![travel_journal](https://user-images.githubusercontent.com/76503650/178315794-ed8ac59d-8843-4b82-8efe-a04da9d37997.gif)
 
 ![travel_journal_mobile](https://user-images.githubusercontent.com/76503650/178313143-1be30e8a-b80a-4c98-a832-06bf8340a65b.gif)
 
