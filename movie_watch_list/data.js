@@ -1,4 +1,4 @@
-const apiKey = '1e1137a0'
+const apiKey = 'fecd2f83'
 const baseUrl = `http://www.omdbapi.com/?apikey=${apiKey}&`
 
-export default baseUrl
+export { baseUrl } 

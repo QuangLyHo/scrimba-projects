@@ -5,69 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Movie Watch List</title>
+    <title>movie watch list</title>
 </head>
-<body>
-    <header class="header">
-        <div class="container">
 
+<body>
+
+    <header class="header-bg-img">
+
+        <div class="container header-container">
             <div class="header-nav">
-                <h1 class="title">Find Your Film</h1>
-                <a class="nav-link_watchlist" href="watchlist.html">My Watchlist</a>
+                <h1>Find your film</h1>
+                <a href="watchlist.html">My Watchlist</a>
             </div>
 
             <div class="search-bar_container">
-                <form class="search-bar__form" id="search" action="" method="get">
-                    <input class="search_bar__search" name="searchQuery" type="search" placeholder="Search For Your Movies!">
-                    <button id="search-btn" class="search-bar__sumbit" type="submit">Search!</button>
+                <form id="movie-search_form">
+                    <input id="movie-search_bar" class="movie-search_bar" type="text" placeholder="Search for a movie">
+                    <button type="submit" class="search-btn">Search!</button>
                 </form>
             </div>
-
         </div>
+
     </header>
+
+                        <!-- SEARCH RESULTS -->
+
     <main>
-        <div class="container search-results-container">
 
-            <!-- <img src="/images/film.svg"class="search-results_placeholder"> -->
-            
-            <!-- <div class="movies-search_card">
-                <div class="card-main">
-                    <div class="movie-card-header">
-                        <h3 class="movie-title">Batman Begins</h3>
-                        <p class="movie-rating">8.3</p>
-                    </div>
-                    <div class="movie-info">
-                        <p>140 min</p>
-                        <p>Action, Crime, Drama</p>
-                        <button class="movie-add-btn">Watchlist</button>
-                    </div>
-                    <p class="movie-plot">After training with his mentor,Batman begins his fight to free crime-ridden GothamCity from corruption.</p>
-                </div>
-                <div class="card-secondary">
-                    <img src='https://m.media-amazon.com/images/M/MV5BOTY4YjI2N2MtYmFlMC00ZjcyLTg3YjEtMDQyM2ZjYzQ5YWFkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg'>
-                </div>
-            </div> -->
-            <!-- <div class="movies-search_card">
-                <div class="card-main">
-                    <h3 class="movie-title">Blade Runner</h3>
-                    <div class="movie-info">
-                        <p>117 min</p>
-                        <p>Action, Crime, Drama</p>
-                        <button class="movie-add-btn">Watchlist</button>
-                    </div>
-                    <p class="movie-plot">A blade runner must pursue andterminate four replicants who stole a ship in space,and have returned to Earth to find their cre.</p>
-                </div>
-                <div class="card-secondary">
-                    <img src='https://m.media-amazon.com/images/M/MV5BNzQzMzJhZTEtOWM4NS00MTdhLTg0YjgtMjM4MDRkZjUwZDBlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg'>
-                </div>
-            </div> -->
+        <div class="container movie-card-container" id="movie-return">
+            <!-- <div class="start-exploring-placeholder" id="start-exploring-placeholder">
 
+            </div> -->
         </div>
+        
     </main>
 
-    <script type="module" src="index.js"></script>
+    <script src="main.js" type="module"></script>
 </body>
 </html>
